@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter';
+  background: #030712;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.00);
+  background: var(--Gray-Dark-Default, #030712);
+}
+
+.nav-link {
+  color: var(--Gray-Dark-600, #D1D5DB);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.logo {
+  color: var(--Gray-Dark-900, #F9FAFB);
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 120% */
+  letter-spacing: -0.6px;
+}
+
+.button {
+  padding: 6px 16px;
+  border-radius: 12px;
+  background: var(--Gray-Dark-900, #F9FAFB);
+
+  color: var(--Gray-Dark-50, #111827);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.main-heading {
+  color: var(--Gray-Dark-900, #F9FAFB);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.text {
+  color: var(--Gray-Dark-600, #D1D5DB);
+
+  /* Body2/Normal - All */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.address {
+  color: var(--Gray-Dark-600, #D1D5DB);
+
+  /* Body2/Normal - All */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.green-dot {
+  border-radius: 50%;
+  background: #10B981;
+  width: 8px;
+  height: 8px;
+}

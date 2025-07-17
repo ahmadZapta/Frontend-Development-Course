@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter';
+  background: #030712;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.00);
+  background: var(--Gray-Dark-Default, #030712);
+  padding: 16px 0;
+}
+
+.nav-link {
+  color: var(--Gray-Dark-600, #D1D5DB);
+
+  /* Body2/Medium - All */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.col-left {
+  border-radius: 12px 0px 0px 12px;
+  border-right: 1px solid var(--Gray-Dark-100, #1F2937);
+  background: var(--Gray-Dark-200, #374151);
+}
+
+.col-right {
+  border-radius: 0px 12px 12px 0px;
+  background: var(--Gray-Dark-100, #1F2937);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  overflow: hidden;
+  color: var(--Gray-Dark-900, #F9FAFB);
+  text-overflow: ellipsis;
+
+  /* Subtitle/Semi Bold - Desktop */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 140% */
+}
+
+.project-description {
+  color: var(--Gray-Dark-600, #D1D5DB);
+
+  /* Body2/Normal - All */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.technology {
+  border-radius: 12px;
+  background: var(--Gray-Dark-200, #374151);
+  padding: 4px 20px;
+  display: block;
+
+  color: var(--Gray-Dark-600, #D1D5DB);
+
+  /* Body3/Medium - All */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+.project-link {
+  padding: 6px;
+}
